@@ -8,3 +8,4 @@ IB.tex
 Beam-forming servers.tex
 Data Monitoring.tex
 Radio Frequency Interference .tex
+Observing Modes.tex
