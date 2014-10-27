@@ -11,4 +11,5 @@ Radio Frequency Interference .tex
 Observing Modes.tex
 Major Science Goals.tex
 Pulsar Timing.tex
+Radio Burst Detections.tex
 Discussion.tex
