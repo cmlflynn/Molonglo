@@ -9,6 +9,7 @@ Beam-forming servers.tex
 Data Monitoring.tex
 Radio Frequency Interference .tex
 Observing Modes.tex
+Single Module Timing Mode.tex
 Major Science Goals.tex
 Pulsar Timing.tex
 Radio Burst Detections.tex
