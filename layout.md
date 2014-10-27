@@ -10,3 +10,4 @@ Data Monitoring.tex
 Radio Frequency Interference .tex
 Observing Modes.tex
 Major Science Goals.tex
+Discussion.tex
