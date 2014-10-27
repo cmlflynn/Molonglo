@@ -9,7 +9,7 @@ Beam-forming servers.tex
 Data Monitoring.tex
 Radio Frequency Interference .tex
 Observing Modes.tex
-Single Module Timing Mode.tex
+Single Module Modes.tex
 FX Correlation Mode.tex
 Tied Array Beam Mode.tex
 Major Science Goals.tex
