@@ -13,6 +13,7 @@ Single Module Modes.tex
 FX Correlation Mode.tex
 Tied Array Beam Mode.tex
 Baseband Dump Mode.tex
+Fan Bean Creation Mode.tex
 Major Science Goals.tex
 Pulsar Timing.tex
 Radio Burst Detections.tex
