@@ -2,3 +2,5 @@
 The fibres from 4 RX boxes (16 modules) are aggregated in a rear transmission module that takes the 8/10 encoded optical data and places it on Rocket IO to send it to the polyphase filterbank (PFB) boards. The PFBs have a CX4 port which is used to send 10Gb ethernet packets to industry standard network interface cards. The PFB can be reprogrammed into one of three modes, pass-through, critically-sampled PFB and over-sampled PFB. The pass-through mode was pivotal in debugging the more complex modes but the default mode is the critically-sampled mode. The over-sampled mode is reserved for future use and may help eliminate the loss of sensitivity between frequency channels but comes at the cost of an increased data rate (by a factor 128/100). 
 
 Up until this point the hardware is identical to that originally planned for SKAMP-2. The only change is that the PFB firmware has been re-programmed to send the data out of the CX-4 port instead of placing it on the custom mesh.
+
+The UTMOST upgrade now consists of 100% commodity
