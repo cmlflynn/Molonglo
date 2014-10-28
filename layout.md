@@ -1,6 +1,7 @@
 abstract.tex
 introduction.tex
 System Design.tex
+figures/Screenshot - 171014 - 08-09-1/Screenshot - 171014 - 08-09-1.png
 results.tex
 figures/Screenshot - 171014 - 08-09-25/Screenshot - 171014 - 08-09-25.png
 RX boxes.tex
