@@ -11,7 +11,6 @@ Radio Frequency Interference .tex
 Observing Modes.tex
 Single Module Modes.tex
 FX Correlation Mode.tex
-Baseband Dump Mode.tex
 Fan Bean Creation Mode.tex
 Major Science Goals.tex
 Pulsar Timing.tex
