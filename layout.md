@@ -1,6 +1,7 @@
 abstract.tex
 introduction.tex
 results.tex
+figures/Screenshot - 171014 - 08-09-25/Screenshot - 171014 - 08-09-25.png
 RX boxes.tex
 Rear Transmission Modules.tex
 DAQ Servers.tex
