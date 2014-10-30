@@ -1,3 +1,7 @@
-\subsection{Beam-forming}
+\subsection{Beam-formers}
 
-After the corner-turn, the data are aligned in time in the RAM of the beam-forming servers, and all of the same frequency channels are co-located. At this point the servers can perform one of five different operations. They can detect and sum each voltage to form a single \textit{incoherent} primary beam, add the complex voltages to form a single \textit{coherent} tied array beam, cross correlate each input against the others an ``X'' mode, or produce fine channels that are themselves correlated (an ``FX'' mode), or, in the future, use the fast fourier transform (FFT) to create multiple fan beams. 
+After the corner-turn, the data are aligned in time in the RAM of the beam-forming servers, and all of the same frequency channels are co-located. At this point the servers can perform one of five different operations. They can detect and sum each voltage to form a single \textit{incoherent} primary beam, add the complex voltages to form a single \textit{coherent} tied array beam, cross correlate each input against the others an ``X'' mode to form fringes, or produce fine channels that are themselves correlated (an ``FX'' spectral-line mode), or, in the future, use the fast fourier transform (FFT) to create multiple fan beams. 
+
+The power from the incoherent primary beam can be written to a filterbank file or folded into a pulsar profile. The voltages from a tied array beam can be detected and written to a filterbank file for offline processing, or incoherently or coherently folded into a pulsar profile.
+
+The fringes can be processed to make maps using standard packages such as miriad(REFERENCE). 
