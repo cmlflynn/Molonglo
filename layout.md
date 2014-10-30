@@ -1,7 +1,6 @@
 abstract.tex
 introduction.tex
 System Design.tex
-figures/Screenshot - 171014 - 08-09-1/Screenshot - 171014 - 08-09-1.png
 results.tex
 RX boxes.tex
 Rear Transmission Modules.tex
