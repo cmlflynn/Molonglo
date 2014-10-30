@@ -1,0 +1,14 @@
+\subsection{RFI identification and excision}
+
+If a single module is pointed at the Vela pulsar, a $\sim$ 3 Jy pulsar with a short (5\%) duty cycle, it can, in theory be clearly seen in 60 seconds. Very early on in the project we discovered that pulsar observations with the UTMOST backend were extremely compromised by mobile phone transmissions to the point where the project was in serious danger of being abandoned. In Figure 6a we show the pulsar profile formed from a 10 minute track of the Vela pulsar where 44 modules had their signals added incoherently after square law detection. The baseline of the pulsar profile is so corrupted that the data are useless for any meaningful science.
+
+Good data has statistics that we well described by gaussian random noise. Mobile phone transmissions on the other hand lead to non-gaussian statistics and are easily identified by forming the spectral kurtosis of the data and searching for sudden deviations in the total power. Since a single module has a system equivalent flux density of about 6000 Jy, we are extremely unlikely to ever delete any real celestial signal by omitting any data with a large percentage increase in total power or with a bad spectral kurtosis statistic.
+
+In Figure X we show the same data played back after replacing all data with bad spectral kurtosis with gaussian random noise with the same energy as the mean. Although it is greatly improved, the incoherent sum is still susceptible to phone calls.
+
+Finally, we form the tied array beam after applying the spectral kurtosis and total power data replacement and we see that the final pulsar profile is almost completely free of any corrupting signals. 
+
+This RFI rejection methodology was also trialled during a phone call on the flux calibrator 3C273. In Figure X+1a the interferometric phase vs frequency plot is shown without any RFI rejection and in the Fig X+1b with it. In the latter the phase is clearly usable for calibration whereas in the former the phone call completely dominates the phase rendering it useless.
+
+
+
