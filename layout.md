@@ -3,6 +3,7 @@ introduction.tex
 FRBs2.tex
 FRBs.tex
 Software backend proposed.tex
+MOL_H1.tiff
 Concluding paragraph Introduction.tex
 System Design.tex
 figures/molonglo_bd_ver3 (2)/molonglo_bd_ver3 (2).png
