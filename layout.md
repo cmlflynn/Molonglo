@@ -1,5 +1,4 @@
 abstract.tex
-Abstract end.tex
 introduction.tex
 Concluding paragraph Introduction.tex
 System Design.tex
