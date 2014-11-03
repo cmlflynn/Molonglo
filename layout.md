@@ -14,6 +14,7 @@ DAQ Servers.tex
 IB.tex
 Beam-forming servers.tex
 Data Monitoring.tex
+figures/histograms/histograms.png
 figures/correlationtriangle/correlationtriangle.png
 correlationtriangle1.tiff
 correlationtriangle.tiff
