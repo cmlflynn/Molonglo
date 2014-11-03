@@ -1,5 +1,6 @@
 abstract.tex
 introduction.tex
+FRBs.tex
 Software backend proposed.tex
 Concluding paragraph Introduction.tex
 System Design.tex
