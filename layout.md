@@ -14,6 +14,7 @@ DAQ Servers.tex
 IB.tex
 Beam-forming servers.tex
 Data Monitoring.tex
+correlationtriangle.tiff
 Radio Frequency Interference .tex
 Techniques.tex
 Example Observations.tex
