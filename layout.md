@@ -8,7 +8,7 @@ Concluding paragraph Introduction.tex
 System Design.tex
 figures/molonglo_bd_ver3 (2)/molonglo_bd_ver3 (2).png
 results.tex
-RX boxes.tex
+Digital Receivers.tex
 Rear Transmission Modules.tex
 DAQ Servers.tex
 IB.tex
