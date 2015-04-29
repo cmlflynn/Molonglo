@@ -31,6 +31,5 @@ Major Science Goals.tex
 Pulsar Timing.tex
 figures/Screenshot - 290415 - 15:16:30/Screenshot - 290415 - 15:16:30.png
 Radio Burst Detections.tex
-figures/0837-4135.25mar.15/0837-4135.25mar.15.png
 Mapping.tex
 Discussion.tex
