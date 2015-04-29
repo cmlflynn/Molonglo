@@ -27,5 +27,6 @@ FX Correlation Mode.tex
 Major Science Goals.tex
 Pulsar Timing.tex
 Radio Burst Detections.tex
+figures/vela.fanbeams/vela.fanbeams.png
 Mapping.tex
 Discussion.tex
