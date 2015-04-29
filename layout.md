@@ -24,6 +24,7 @@ Techniques.tex
 Example Observations.tex
 Single Module Modes.tex
 FX Correlation Mode.tex
+figures/vela.fanbeams1/vela.fanbeams1.png
 Major Science Goals.tex
 Pulsar Timing.tex
 Radio Burst Detections.tex
