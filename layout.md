@@ -29,6 +29,7 @@ figures/Vela_Single_Pulses (1)/Vela_Single_Pulses (1).png
 figures/vela.fanbeams1/vela.fanbeams1.png
 Major Science Goals.tex
 Pulsar Timing.tex
+figures/Screenshot - 290415 - 15:16:30/Screenshot - 290415 - 15:16:30.png
 Radio Burst Detections.tex
 figures/0837-4135.25mar.15/0837-4135.25mar.15.png
 Mapping.tex
