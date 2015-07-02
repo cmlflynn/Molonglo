@@ -17,6 +17,7 @@ Data Monitoring.tex
 figures/histograms/histograms.png
 hmmm.tex
 figures/correlationtriangle/correlationtriangle.png
+figures/J0437-4715.2015-05-29-01:04:40/J0437-4715.2015-05-29-01:04:40.png
 correlationtriangle1.tiff
 correlationtriangle.tiff
 Radio Frequency Interference .tex
