@@ -1,3 +1,5 @@
 \section{Data Monitoring }
 
-The software nature of the UTMOST provides a high level of opportunity for data monitoring and inspection. The lattice FPGA on the RX board can send small snippets of data via Gb ethernet to the DAQ machines which can be plotted as bandpasses, time series and data histograms via a web interface. Similarly once a second the UDP capture system sends 512 voltages from each channel to a ring buffer where a series of plots are created, again available for scrutiny via a web interface.
+The software nature of the UTMOST provides a high level of opportunity for data monitoring and inspection in real time. The lattice FPGA on the RX boards can send snippets of data via Gb ethernet to the DAQ machines, which we plot live as system bandpasses, time series and data histograms on a web interface. Similarly, once per second, the UDP capture system sends 512 voltages from each channel to a ring buffer where a series of plots are created, again available for scrutiny via a web interface. The status of subsystems such as MGT lock can be displayed live as well.
+
+  
