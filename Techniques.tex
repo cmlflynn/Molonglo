@@ -1,6 +1,6 @@
 \subsection{RFI identification and excision}
 
-As with most radio telesocpes, our system is noise dominated, and good quality data is expected to be statistically well described by Gaussian random noise. Mobile phone transmissions on the other hand lead to non-Gaussian distortions in the voltages and are easily identified by measuring the spectral kurtosis of the data and searching for sudden deviations in the total power. Since a single module has a system equivalent flux density (SEFD) of about 6000 Jy, we are extremely unlikely to delete any real celestial signal by omitting any data when there is a large percentage increase in total power in a short time, or simply with a bad (i.e. non-Gaussian) spectral kurtosis statistic. 
+As with most radio telesocpes, our system is noise dominated, and good quality sky data is expected to be statistically well described by Gaussian random noise. Mobile phone transmissions on the other hand lead to non-Gaussian distortions in the voltages and are easily identified by measuring the spectral kurtosis of the data and searching for sudden deviations in the total power. Since a single module has a system equivalent flux density (SEFD) of about 6000 Jy, we are extremely unlikely to delete any real celestial signal by omitting any data when there is a large percentage increase in total power in a short time, or simply with a bad (i.e. non-Gaussian) spectral kurtosis statistic. 
 
 Our kurtosis and power based detection methods currently search for interference on times scales from 1 to 20 milliseconds, and we integrate in frequency across the known mobile handset bands to improve detection of weaker signals. The procedure operates live on all 40 coarse frequency channels on the 352 modules of the telescope, but nevertheless only requires a fraction of the available GPU cycles on the GTX 690s, which are mainly used for delay computations. 
 
@@ -13,4 +13,5 @@ This RFI rejection methodology was also trialled during a phone call on the flux
 The optimal thresholds for data replacement and excision are still being experimented with, but it is clear that these techniques have transformed an otherwise compromised instrument back into one useful for science.
 
 
+  
   
