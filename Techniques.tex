@@ -1,6 +1,6 @@
 \subsection{RFI identification and excision}
 
-As with most radio telesocpes, our system is noise dominated, and good quality sky data is expected to be statistically well described by Gaussian random noise. Mobile phone transmissions on the other hand lead to non-Gaussian distortions in the voltages and are easily identified by measuring the spectral kurtosis of the data and searching for sudden deviations in the total power. Since a single module has a system equivalent flux density (SEFD) of about 6000 Jy, we are extremely unlikely to delete any real celestial signal by omitting any data when there is a large percentage increase in total power in a short time, or simply with a bad (i.e. non-Gaussian) spectral kurtosis statistic. 
+As with most radio observations, our system is noise dominated, and good sky data is expected to be statistically well described by Gaussian random noise. Mobile phone transmissions on the other hand lead to non-Gaussian distortions in the voltages and are readily identified by measuring the spectral kurtosis of the data and searching for sudden deviations in the total power. Since a single module has a system equivalent flux density (SEFD) of about 6000 Jy, we are extremely unlikely to delete any real celestial signal by omitting any data when there is a large percentage increase in total power in a short time, or simply with a bad (i.e. non-Gaussian) spectral kurtosis statistic. 
 
 Our kurtosis and power based detection methods currently search for interference on times scales from 1 to 20 milliseconds, and we integrate in frequency across the known mobile handset bands to improve detection of weaker signals. The procedure operates live on all 40 coarse frequency channels on the 352 modules of the telescope, but nevertheless only requires a fraction of the available GPU cycles on the GTX 690s, which are mainly used for delay computations. 
 
@@ -8,10 +8,8 @@ In Figure X we show data taken with RFI excision turned off, and the same data p
 
 Finally, we form the tied array beam after applying the spectral kurtosis and total power data replacement and we see that the final pulsar profile is almost completely free of any corrupting signals as the tied array beam formation has dephased the phone transmissions.
 
-This RFI rejection methodology was also trialled during a phone call on the flux calibrator 3C273. In Figure X+1a the interferometric phase vs frequency plot is shown without any RFI rejection and in the Fig X+1b with it. In the latter the phase is clearly usable for calibration whereas in the former the phone call completely dominates the phase rendering it useless.
+This RFI rejection methodology was also trialled during a phone call on the flux calibrator 3C273. In Figure X+1a the interferometric phase vs frequency plot is shown without any RFI rejection and in the Fig X+1b with it. In the latter the phase is clearly usable for calibration whereas in the former the phone call completely dominates the phase, rendering it useless.
 
-The optimal thresholds for data replacement and excision are still being experimented with, but it is clear that these techniques have transformed an otherwise compromised instrument back into one useful for science.
+Tests to determine optimal thresholds for data replacement and excision in different operational modes are still being undertaken (June 2015), but it is clear that these techniques have transformed an otherwise compromised instrument back into one useful for science.
 
-
-  
   
